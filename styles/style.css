@@ -1,0 +1,421 @@
+body {
+    margin: 0px;
+padding: 0px;
+}
+
+header {
+    background-color:orange;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#one{
+    font-size: 60px;
+}
+
+#two a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.menu li{
+    display:inline-block;
+    padding: 1em;
+    font-size: 2em;
+
+}
+
+nav{
+    flex:1;
+}
+
+
+
+header{
+    display: flex;
+}
+
+#presentation {
+    background-color: #111;
+    color: white;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+#presentation p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#presentation-hello {
+    font-size: 40px;
+}
+
+#presentation-name {
+    font-size: 80px;
+}
+
+#presentation-iam {
+    font-size: 50px;
+}
+
+#presentation-developer {
+    font-size: 50px;
+    
+
+}
+
+#presentation-frontend {
+    font-size: 20px;
+}
+
+#presentation button {
+    border: 1px solid orange;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    color: orange;
+    font-size: 20px;
+}
+
+/* ABOUT */
+
+#about{
+    background-color: rgb(32, 190, 218);
+    height: 700px;  
+    display: flex;
+    padding-right: 8em;
+    padding-top: 4em;
+}
+    
+#about img{
+    border: 1px solid grey;
+    border-radius: 50px; 
+    width: 400px;
+    display: block;
+    box-shadow: 6px 6px 6px 6px grey;
+}
+
+#apropos{
+    font-size: 3em;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#name{
+    font-size: 2em;
+    padding-left: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#job{
+    font-size: 2em;
+    padding-left: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#commentaire{
+    padding-left: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+#cv{
+    margin-left: 100px;
+    margin-top: 2.6em;
+    padding-bottom: 1.6em;
+    padding-top: 1em;
+    border-radius: 6px;
+    background-color: black;
+    color: orange;
+    border: 1px solid orange;
+
+}
+
+#training{
+    background-color: #E5FFFE;
+    padding-left: 100px;
+    padding-right:50px ;
+    padding-top: 200px;
+    height: 1200px;
+}
+
+#FORMATIONS{
+    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.contenu-formation {
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.contenu-formation img {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.contenu-formation h3{
+    font-size: 2.6em;
+    color: white;
+    text-align: center;
+}
+
+.contenu-formation p{
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+
+ /* compétences */
+ #competences{
+    background-color: white;
+    height: 800px;
+ }
+
+ #skills{
+    display: flex;
+ }
+
+ #skills-presentation{
+    flex: 1;
+ }
+
+ #skills-matiere{
+    flex: 1;
+ }
+
+
+
+ .skill{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    padding-top: 1em;
+    margin-left: 70px;
+    padding-bottom: 2em;
+ }
+
+ .skil{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.6em;
+    margin-left: 70px;
+ }
+
+ .commentaire{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    padding-top: 2em;
+    margin-left: 70px;
+ }
+
+ .première-competence{
+    border: 0.6em solid orange;
+    border-radius: 2em;
+    margin-left: 3em;
+  }
+
+ .HTML{
+    font-size: 1.6em;
+    margin-left: 3em;
+ }
+
+ .deuxième-competence{
+    border: 0.6em solid orange;
+    border-radius: 2em;
+    margin-left: 3em;
+ }
+ 
+ .boostrap{
+    font-size: 1.6em;
+    margin-left: 3em;
+ }
+
+ .troisième-competence{
+    border: 0.6em solid orange;
+    border-radius: 2em;
+    margin-left: 3em;
+    width: 50%;
+ }
+
+ .wordpress{
+    font-size: 1.6em;
+    margin-left: 3em;
+ }
+
+ /* EXPERIENCES */
+
+ #EXPERIENCES{
+    background-color: #13a6a6;
+    height: 800px;
+ }
+
+ .partie-experience {
+    font-size: 50px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+    padding-top: 50px;
+ }
+
+ #images-experiences{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+ }
+
+ .pictures img{
+    width: 300px;
+    height: 250px;
+    margin-left: 100px;
+    border: 6px solid orange;
+    border-radius: 6px;
+ }
+
+ /* CONTACT */
+
+ #Contactez-moi{
+    background-color:white;
+    height: 800px;
+ }
+
+    #bloc{
+        display: flex;
+    }
+
+    #bloc-1{
+        flex: 1;
+    }
+
+    #bloc-2{
+        flex: 1;
+        padding-right: 60px;
+    }
+
+ #call-me{
+    font-size: 50px;
+    margin-left: 30px;
+ }
+
+ .my-name{
+    margin-left: 30px;
+    font-size: 20px;
+ }
+
+ #send-mail{
+    font-size: 30px;
+    margin-left: 25px;
+ }
+
+ .partie-nom{
+    font-size: 25px;
+ }
+
+ .caractere{
+        height: 50px;
+        width: 100%;
+        border: 2px solid orange;
+        border-radius: 6px;
+ }
+
+ .mail{
+    height: 50px;
+    width:320px ;
+    margin-left: 50px;
+ }
+
+ #champ-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ #partie-nom{
+     width: 50%; 
+     /* background-color: black; */
+ }
+
+ .partie-nom div{
+    padding: 6px;
+ }
+
+ #prenom{
+    width: 50%;
+ }
+
+ #partie-mail{
+    width: 50%;
+ }
+
+ #partie-telephone{
+    width: 50%;
+ }
+
+ #partie-message{
+    width: 100%;
+ }
+
+ #partie-message textarea{
+    width: 100%;
+    border: 2px solid orange;
+ }
+
+ .button{
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    color: black;
+    border: 2px solid orange;
+    background-color:white;
+    border-radius: 6px;
+ }
+
+ #footer{   
+    background-color: black;
+    height: 150px;
+ }
+
+ .pied-de-page{
+    padding: 60px;
+    font-size: 50px;
+ }
+
+ .port{
+    color: white;
+ }
+
+ #footer a{
+    color: #00FFFF;
+ }
