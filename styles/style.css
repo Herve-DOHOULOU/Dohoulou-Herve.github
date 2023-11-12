@@ -1,6 +1,7 @@
 body {
-    margin: 0px;
-padding: 0px;
+   font-family: "candara";
+   margin: 0px;
+   padding: 0px;
 }
 
 header {
@@ -149,58 +150,60 @@ header{
 
 }
 
-#training{
+/* FORMATIONS */
+
+#formations {
     background-color: #E5FFFE;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right:50px ;
-    padding-top: 200px;
-    height: 1200px;
+    padding-bottom: 30px;
 }
 
-#FORMATIONS{
-    font-size: 3em;
+#formations h2 {
+    font-size: 40px;
     margin: 0px;
     padding: 0px;
+    padding-top: 30px;
 }
 
-#contenu{
+#formations-contenu {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 150px;
+    column-gap: 20px;
 }
 
-.contenu-formation {
+.formations-produit {
     height: 400px;
-    width: 500px;
+    width: calc(33.33% - 13.33px);
     background-color: black;
     border-radius: 2em;
     text-align: center;
     margin-top: 2em;
 }
 
-.contenu-formation img {
+.formations-produit img {
     height: 100px;
     padding-top: 30px;
 }
 
-.contenu-formation h3{
-    font-size: 2.6em;
+.formations-produit h3{
+    font-size: 30px;
     color: white;
     text-align: center;
 }
 
-.contenu-formation p{
+.formations-produit p{
     color: white;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 20px;
+    margin: 10px;
 }
 
+/* COMPETENCES */
 
- /* compétences */
  #competences{
     background-color: white;
-    height: 800px;
+    padding: 30px 50px;
  }
 
  #skills{
@@ -212,10 +215,9 @@ header{
  }
 
  #skills-matiere{
-    flex: 1;
- }
-
-
+   flex: 1;
+   padding-left: 50px; 
+}
 
  .skill{
     margin: 0px;
@@ -229,52 +231,53 @@ header{
  .skil{
     margin: 0px;
     padding: 0px;
-    font-size: 2.6em;
+    font-size: 25px;
     margin-left: 70px;
  }
 
- .commentaire{
+ .commentaire {
     margin: 0px;
     padding: 0px;
-    font-size: 2em;
+    font-size: 20px;
     padding-top: 2em;
     margin-left: 70px;
  }
 
- .première-competence{
-    border: 0.6em solid orange;
-    border-radius: 2em;
-    margin-left: 3em;
-  }
+.competence p {
+   margin: 0px;
+}
 
- .HTML{
-    font-size: 1.6em;
-    margin-left: 3em;
- }
+.competence div {
+   border: 1px solid red ;
+   height: 10px;
+   background-color: orange;
+   border-radius: 6px;
+   margin-bottom: 20px;
+}
 
- .deuxième-competence{
-    border: 0.6em solid orange;
-    border-radius: 2em;
-    margin-left: 3em;
- }
- 
- .boostrap{
-    font-size: 1.6em;
-    margin-left: 3em;
- }
+#competence-html {
+   width: 50%;
+}
 
- .troisième-competence{
-    border: 0.6em solid orange;
-    border-radius: 2em;
-    margin-left: 3em;
-    width: 50%;
- }
+#competence-boostrap {
+   width: 40%;
+}
 
- .wordpress{
-    font-size: 1.6em;
-    margin-left: 3em;
- }
+#competence-wordpress {
+   width: 30%;
+}
 
+#competence-git {
+   width: 50%;
+}
+
+#competence-figma {
+   width: 100%;
+}
+
+#competence-photoshop {
+   width: 80%;
+}
  /* EXPERIENCES */
 
  #EXPERIENCES{
@@ -419,3 +422,11 @@ header{
  #footer a{
     color: #00FFFF;
  }
+
+ /* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+   .formations-produit{
+      width: 100%;
+   }
+}
