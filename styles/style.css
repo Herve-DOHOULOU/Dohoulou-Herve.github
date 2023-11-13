@@ -174,9 +174,9 @@ header{
 
 .formations-produit {
     height: 400px;
-    width: calc(33.33% - 13.33px);
     background-color: black;
-    border-radius: 2em;
+    border-radius: 2em;  
+    width: calc(33.33% - 13.33px);
     text-align: center;
     margin-top: 2em;
 }
@@ -282,30 +282,34 @@ header{
 
  #EXPERIENCES{
     background-color: #13a6a6;
-    height: 800px;
+    padding: 30px 50px;
  }
 
  .partie-experience {
-    font-size: 50px;
-    color: white;
+    font-size: 30px;
     margin: 0px;
     padding: 0px;
-    padding-left: 50px;
     padding-top: 50px;
  }
 
  #images-experiences{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+
+ }
+
+ .pictures{
+   width: calc(33.33% - 13.33px);
  }
 
  .pictures img{
-    width: 300px;
     height: 250px;
-    margin-left: 100px;
     border: 6px solid orange;
+    width: 100%;
     border-radius: 6px;
+    display: block;
  }
 
  /* CONTACT */
@@ -429,4 +433,22 @@ header{
    .formations-produit{
       width: 100%;
    }
+
+   #skills{
+      display: block;
+   }
+
+   #skills-presentation{
+      padding-bottom: 20px;
+   }
+
+   .pictures {
+      width: 100%;
+      background-color: red;
+   }
+
+   .pictures img {
+      visibility: hidden;
+   }
+
 }
